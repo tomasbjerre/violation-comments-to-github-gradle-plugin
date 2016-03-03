@@ -1,0 +1,36 @@
+buildscript {
+ repositories {
+  mavenLocal()
+  mavenCentral()
+ }
+
+ dependencies {
+  classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.0-SNAPSHOT"
+ }
+}
+
+/**
+ * When running in Travis, you may add custom environment variable GITHUB_OAUTH2TOKEN and do something like:
+ *  ./gradlew violationCommentsToGitHub -DGITHUB_PULLREQUESTID=$TRAVIS_PULL_REQUEST -DGITHUB_OAUTH2TOKEN=$GITHUB_OAUTH2TOKEN
+ * Or define username/password variables: 
+ *  ./gradlew violationCommentsToGitHub -DGITHUB_PULLREQUESTID=$TRAVIS_PULL_REQUEST -DGITHUB_USERNAME=$GITHUB_USERNAME -DGITHUB_PASSWORD=$GITHUB_PASSWORD
+ */
+apply plugin: "se.bjurr.violations.violation-comments-to-github-gradle-plugin"
+task violationCommentsToGitHub(type: se.bjurr.violations.comments.github.plugin.gradle.ViolationCommentsToGitHubTask) {
+ repositoryOwner = "tomasbjerre";
+ repositoryName = "violations-test"
+ pullRequestId = System.properties['GITHUB_PULLREQUESTID']
+ username = System.properties['GITHUB_USERNAME']
+ password = System.properties['GITHUB_PASSWORD']
+ oAuth2Token = System.properties['GITHUB_OAUTH2TOKEN']
+ gitHubUrl = "https://api.github.com/"
+ createCommentWithAllSingleFileComments = true
+ createSingleFileComments = true
+ violations = [
+  ["FINDBUGS",   ".", ".*/findbugs/.*\\.xml\$"],
+  ["PMD",        ".", ".*/pmd/.*\\.xml\$"],
+  ["CHECKSTYLE", ".", ".*/checkstyle/.*\\.xml\$"],
+  ["JSHINT",     ".", ".*/jshint/.*\\.xml\$"],
+  ["CSSLINT",    ".", ".*/csslint/.*\\.xml\$"]
+ ]
+}
