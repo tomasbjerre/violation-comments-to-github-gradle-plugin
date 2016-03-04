@@ -2,7 +2,9 @@
 
 This is a Gradle plugin for [Violation Comments to GitHub Lib](https://github.com/tomasbjerre/violation-comments-to-github-lib).
 
-You can have a look at [violations-test](https://github.com/tomasbjerre/violations-test/pull/1) to see what the result may look like.
+It can be used in Travis, or any other build server, to read results from static code analysis like Findbugs, PMD, Checkstyle, JSHint and/or CSSLint and comment pull requests in GitHub with them.
+
+You can have a look at [violations-test](https://github.com/tomasbjerre/violations-test/pull/2) to see what the result may look like.
 
 ## Usage ##
 There is a running example [here](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/tree/master/violation-comments-to-github-gradle-plugin-example).
@@ -17,13 +19,13 @@ Here is and example:
       }
     }
     dependencies {
-      classpath "gradle.plugin.se.bjurr.violations.comments.github:violation-comments-to-github-gradle-plugin:1.0"
+      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.1"
     }
   }
 
-  apply plugin: "se.bjurr.violations.comments.github.gradle.violation-comments-to-github-gradle-plugin"
+  apply plugin: "se.bjurr.violations.violation-comments-to-github-gradle-plugin"
 
-  task violationCommentsToGitHub(type: se.bjurr.violations.comments.github.gradle.ViolationCommentsToGitHubTask) {
+  task violationCommentsToGitHub(type: se.bjurr.violations.comments.github.plugin.gradle.ViolationCommentsToGitHubTask) {
    repositoryOwner = "tomasbjerre";
    repositoryName = "violations-test"
    pullRequestId = System.properties['GITHUB_PULLREQUESTID']
