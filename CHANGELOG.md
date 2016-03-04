@@ -3,9 +3,18 @@
 ## Unreleased
 ### No issue
 
+**1.1 in example**
+
+
+[a89a0db46437c8d](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/a89a0db46437c8d) Tomas Bjerre *2016-03-04 18:56:31*
+
+
+## 1.0
+### No issue
+
 **Initial**
 
 
-[9ac73a37d2e8fb9](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/9ac73a37d2e8fb9) Tomas Bjerre *2016-03-04 18:27:03*
+[809e51cedb050a6](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/809e51cedb050a6) Tomas Bjerre *2016-03-04 18:36:30*
 
 
