@@ -2,10 +2,24 @@
 
 This is a Gradle plugin for [Violation Comments to GitHub Lib](https://github.com/tomasbjerre/violation-comments-to-github-lib).
 
-It can be used in Travis, or any other build server, to read results from static code analysis like Findbugs, PMD, Checkstyle, JSHint and/or CSSLint and comment pull requests in GitHub with them.
+It can be used in Travis, or any other build server, to read results from static code analysis and comment pull requests in GitHub with them.
 
 You can have a look at [violations-test](https://github.com/tomasbjerre/violations-test/pull/2) to see what the result may look like.
 
+It supports:
+ * [_Checkstyle_](http://checkstyle.sourceforge.net/)
+ * [_CPPLint_](https://github.com/theandrewdavis/cpplint)
+ * [_CPPCheck_](http://cppcheck.sourceforge.net/)
+ * [_CSSLint_](https://github.com/CSSLint/csslint)
+ * [_Findbugs_](http://findbugs.sourceforge.net/)
+ * [_Flake8_](http://flake8.readthedocs.org/en/latest/) ([_PyLint_](https://www.pylint.org/), [_Pep8_](https://github.com/PyCQA/pycodestyle))
+ * [_JSHint_](http://jshint.com/)
+ * _Lint_ A common XML format, used by different linters.
+ * [_PerlCritic_](https://github.com/Perl-Critic)
+ * [_PMD_](https://pmd.github.io/)
+ * [_ReSharper_](https://www.jetbrains.com/resharper/)
+ * [_XMLLint_](http://xmlsoft.org/xmllint.html)
+ 
 ## Usage ##
 There is a running example [here](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/tree/master/violation-comments-to-github-gradle-plugin-example).
 
@@ -19,7 +33,7 @@ Here is and example:
       }
     }
     dependencies {
-      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.1"
+      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.2"
     }
   }
 
