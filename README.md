@@ -12,7 +12,7 @@ It supports:
  * [_CPPCheck_](http://cppcheck.sourceforge.net/)
  * [_CSSLint_](https://github.com/CSSLint/csslint)
  * [_Findbugs_](http://findbugs.sourceforge.net/)
- * [_Flake8_](http://flake8.readthedocs.org/en/latest/) ([_PyLint_](https://www.pylint.org/), [_Pep8_](https://github.com/PyCQA/pycodestyle))
+ * [_Flake8_](http://flake8.readthedocs.org/en/latest/) ([_PyLint_](https://www.pylint.org/), [_Pep8_](https://github.com/PyCQA/pycodestyle), [_Mccabe_](https://pypi.python.org/pypi/mccabe), [_PyFlakes_](https://pypi.python.org/pypi/pyflakes))
  * [_JSHint_](http://jshint.com/)
  * _Lint_ A common XML format, used by different linters.
  * [_PerlCritic_](https://github.com/Perl-Critic)
