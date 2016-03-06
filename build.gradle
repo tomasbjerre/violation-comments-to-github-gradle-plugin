@@ -55,8 +55,8 @@ eclipse {
 pluginBundle {
   website = 'https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin'
   vcsUrl = 'https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin'
-  description = 'Gradle plugin for Violation Comments to GitHub'
-  tags = ['violation']
+  description = 'Gradle plugin that will comment GitHub pull requests with results from static code analysis'
+  tags = ['violation', 'lint', 'static code analysis', 'findbugs', 'pmd', 'checkstyle', 'jshint', 'csslint']
 
   plugins {
     violationsPlugin {
