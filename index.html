@@ -37,9 +37,28 @@
 
 <p>This is a Gradle plugin for <a href="https://github.com/tomasbjerre/violation-comments-to-github-lib">Violation Comments to GitHub Lib</a>.</p>
 
-<p>It can be used in Travis, or any other build server, to read results from static code analysis like Findbugs, PMD, Checkstyle, JSHint and/or CSSLint and comment pull requests in GitHub with them.</p>
+<p>It can be used in Travis, or any other build server, to read results from static code analysis and comment pull requests in GitHub with them.</p>
 
 <p>You can have a look at <a href="https://github.com/tomasbjerre/violations-test/pull/2">violations-test</a> to see what the result may look like.</p>
+
+<p>It supports:</p>
+
+<ul>
+<li><a href="http://checkstyle.sourceforge.net/"><em>Checkstyle</em></a></li>
+<li><a href="https://github.com/theandrewdavis/cpplint"><em>CPPLint</em></a></li>
+<li><a href="http://cppcheck.sourceforge.net/"><em>CPPCheck</em></a></li>
+<li><a href="https://github.com/CSSLint/csslint"><em>CSSLint</em></a></li>
+<li><a href="http://findbugs.sourceforge.net/"><em>Findbugs</em></a></li>
+<li>
+<a href="http://flake8.readthedocs.org/en/latest/"><em>Flake8</em></a> (<a href="https://www.pylint.org/"><em>PyLint</em></a>, <a href="https://github.com/PyCQA/pycodestyle"><em>Pep8</em></a>)</li>
+<li><a href="http://jshint.com/"><em>JSHint</em></a></li>
+<li>
+<em>Lint</em> A common XML format, used by different linters.</li>
+<li><a href="https://github.com/Perl-Critic"><em>PerlCritic</em></a></li>
+<li><a href="https://pmd.github.io/"><em>PMD</em></a></li>
+<li><a href="https://www.jetbrains.com/resharper/"><em>ReSharper</em></a></li>
+<li><a href="http://xmlsoft.org/xmllint.html"><em>XMLLint</em></a></li>
+</ul>
 
 <h2>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
