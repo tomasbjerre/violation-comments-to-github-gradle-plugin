@@ -102,5 +102,6 @@ extraArchive {
  javadoc = true
 }
 
-afterReleaseBuild.dependsOn publishPlugins
-afterReleaseBuild.dependsOn uploadArchives
+afterReleaseBuild.dependsOn {
+ [install, uploadArchives, publishPlugins]
+}
