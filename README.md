@@ -33,7 +33,7 @@ Here is and example:
       }
     }
     dependencies {
-      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.4"
+      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.5"
     }
   }
 
@@ -49,6 +49,7 @@ Here is and example:
    gitHubUrl = "https://api.github.com/"
    createCommentWithAllSingleFileComments = false
    createSingleFileComments = true
+   commentOnlyChangedContent = true
    violations = [
     ["FINDBUGS",   ".", ".*/findbugs/.*\\.xml\$"],
     ["PMD",        ".", ".*/pmd/.*\\.xml\$"],

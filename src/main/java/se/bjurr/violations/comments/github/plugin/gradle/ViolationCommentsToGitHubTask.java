@@ -29,6 +29,7 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
  private List<List<String>> violations = newArrayList();
  private boolean createCommentWithAllSingleFileComments = false;
  private boolean createSingleFileComments = true;
+ private boolean commentOnlyChangedContent = true;
 
  public void setCreateCommentWithAllSingleFileComments(boolean createCommentWithAllSingleFileComments) {
   this.createCommentWithAllSingleFileComments = createCommentWithAllSingleFileComments;
@@ -36,6 +37,10 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
 
  public void setCreateSingleFileComments(boolean createSingleFileComments) {
   this.createSingleFileComments = createSingleFileComments;
+ }
+
+ public void setCommentOnlyChangedContent(boolean commentOnlyChangedContent) {
+  this.commentOnlyChangedContent = commentOnlyChangedContent;
  }
 
  public void setGitHubUrl(String gitHubUrl) {
@@ -112,6 +117,7 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
      .withViolations(allParsedViolations)//
      .withCreateCommentWithAllSingleFileComments(createCommentWithAllSingleFileComments)//
      .withCreateSingleFileComments(createSingleFileComments)//
+     .withCommentOnlyChangedContent(commentOnlyChangedContent)//
      .toPullRequest();
   } catch (Exception e) {
    getLogger().error("", e);
