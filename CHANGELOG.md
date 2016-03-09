@@ -3,10 +3,19 @@
 ## Unreleased
 ### No issue
 
+**Updating example**
+
+
+[533401920cc44ab](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/533401920cc44ab) Tomas Bjerre *2016-03-08 17:38:56*
+
+
+## 1.5
+### No issue
+
 **Optionally comment only changed parts**
 
 
-[994dbac830f38e1](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/994dbac830f38e1) Tomas Bjerre *2016-03-08 17:37:12*
+[01f9defe1d564ee](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/01f9defe1d564ee) Tomas Bjerre *2016-03-08 17:37:38*
 
 **doc**
 
