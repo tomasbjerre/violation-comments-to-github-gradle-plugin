@@ -50,7 +50,7 @@
 <li><a href="https://github.com/CSSLint/csslint"><em>CSSLint</em></a></li>
 <li><a href="http://findbugs.sourceforge.net/"><em>Findbugs</em></a></li>
 <li>
-<a href="http://flake8.readthedocs.org/en/latest/"><em>Flake8</em></a> (<a href="https://www.pylint.org/"><em>PyLint</em></a>, <a href="https://github.com/PyCQA/pycodestyle"><em>Pep8</em></a>)</li>
+<a href="http://flake8.readthedocs.org/en/latest/"><em>Flake8</em></a> (<a href="https://www.pylint.org/"><em>PyLint</em></a>, <a href="https://github.com/PyCQA/pycodestyle"><em>Pep8</em></a>, <a href="https://pypi.python.org/pypi/mccabe"><em>Mccabe</em></a>, <a href="https://pypi.python.org/pypi/pyflakes"><em>PyFlakes</em></a>)</li>
 <li><a href="http://jshint.com/"><em>JSHint</em></a></li>
 <li>
 <em>Lint</em> A common XML format, used by different linters.</li>
@@ -74,7 +74,7 @@
       }
     }
     dependencies {
-      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.2"
+      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.8"
     }
   }
 
@@ -90,6 +90,7 @@
    gitHubUrl = "https://api.github.com/"
    createCommentWithAllSingleFileComments = false
    createSingleFileComments = true
+   commentOnlyChangedContent = true
    violations = [
     ["FINDBUGS",   ".", ".*/findbugs/.*\\.xml\$"],
     ["PMD",        ".", ".*/pmd/.*\\.xml\$"],
