@@ -7,6 +7,7 @@ It can be used in Travis, or any other build server, to read results from static
 You can have a look at [violations-test](https://github.com/tomasbjerre/violations-test/pull/2) to see what the result may look like.
 
 It supports:
+ * [_AndoidLint_](http://developer.android.com/tools/help/lint.html)
  * [_Checkstyle_](http://checkstyle.sourceforge.net/)
  * [_CPPLint_](https://github.com/theandrewdavis/cpplint)
  * [_CPPCheck_](http://cppcheck.sourceforge.net/)
