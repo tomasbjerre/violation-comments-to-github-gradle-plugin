@@ -3,6 +3,63 @@
 ## Unreleased
 ### No issue
 
+**Update violations-comments-to-github-lib version**
+
+ * Updated to add ANDROIDLINT support 
+
+[02b79902eec8987](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/02b79902eec8987) panpanini *2016-05-05 04:05:28*
+
+**doc**
+
+
+[030ce94e63f6cf7](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/030ce94e63f6cf7) Tomas Bjerre *2016-05-03 18:28:05*
+
+
+## 1.9
+### No issue
+
+**Andoid lint**
+
+
+[3cc1017bbca187a](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/3cc1017bbca187a) Tomas Bjerre *2016-04-27 06:03:40*
+
+**Updating example**
+
+
+[56e05fe04aec38b](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/56e05fe04aec38b) Tomas Bjerre *2016-04-07 18:02:58*
+
+
+## 1.8
+### No issue
+
+**Parsing FindBugs xml correctly**
+
+
+[a8dec939cbde98b](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/a8dec939cbde98b) Tomas Bjerre *2016-04-07 16:48:07*
+
+**Updating README.md**
+
+
+[dc1e74418247cad](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/dc1e74418247cad) Tomas Bjerre *2016-03-11 16:48:52*
+
+
+## 1.7
+### No issue
+
+**Updating tags**
+
+
+[d3a71142631b92b](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/d3a71142631b92b) Tomas Bjerre *2016-03-09 18:16:12*
+
+
+## 1.6
+### No issue
+
+**Commenting on correct commit in PR**
+
+
+[640a494ee715aa3](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/640a494ee715aa3) Tomas Bjerre *2016-03-09 17:43:04*
+
 **Updating example**
 
 
