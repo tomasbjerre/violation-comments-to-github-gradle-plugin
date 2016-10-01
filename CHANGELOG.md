@@ -1,7 +1,26 @@
 #Changelog
 
-## Unreleased
+## 1.11
 ### No issue
+
+**FXCop**
+
+
+[733ee590012587d](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/733ee590012587d) Tomas Bjerre *2016-10-01 12:17:00*
+
+**doc**
+
+
+[ee2444887ce6cfd](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/ee2444887ce6cfd) Tomas Bjerre *2016-05-05 05:30:29*
+
+
+## 1.10
+### No issue
+
+**Doc**
+
+
+[2c9bbba76777fe1](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/2c9bbba76777fe1) Tomas Bjerre *2016-05-05 05:27:49*
 
 **Update violations-comments-to-github-lib version**
 

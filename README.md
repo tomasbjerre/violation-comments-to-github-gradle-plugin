@@ -21,7 +21,6 @@ It supports:
  * [_PiTest_](http://pitest.org/)
  * [_PMD_](https://pmd.github.io/)
  * [_ReSharper_](https://www.jetbrains.com/resharper/)
- * [_StyleCop_](https://stylecop.codeplex.com/) Not fully supported. Cannot figure out how to get the filename from the reportfile.
  * [_XMLLint_](http://xmlsoft.org/xmllint.html)
  
 ## Usage ##
@@ -37,7 +36,7 @@ Here is and example:
       }
     }
     dependencies {
-      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.10"
+      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.11"
     }
   }
 
