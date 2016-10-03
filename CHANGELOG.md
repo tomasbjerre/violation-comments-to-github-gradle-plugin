@@ -1,5 +1,28 @@
 #Changelog
 
+## Unreleased
+### No issue
+
+**doc**
+
+
+[34540ce1f606499](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/34540ce1f606499) Tomas Bjerre *2016-10-03 17:20:25*
+
+
+## 1.12
+### No issue
+
+**Supporting StyleCop and fixing FxCop**
+
+
+[ad401decb23e67b](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/ad401decb23e67b) Tomas Bjerre *2016-10-03 17:15:25*
+
+**doc**
+
+
+[d8e2235635fdea3](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/d8e2235635fdea3) Tomas Bjerre *2016-10-01 13:29:56*
+
+
 ## 1.11
 ### No issue
 
