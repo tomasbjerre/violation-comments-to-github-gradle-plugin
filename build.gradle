@@ -42,7 +42,7 @@ repositories {
 }
 
 dependencies {
- compile 'se.bjurr.violations:violation-comments-to-github-lib:1.12'
+ compile 'se.bjurr.violations:violation-comments-to-github-lib:1.13'
 }
 
 eclipse {
