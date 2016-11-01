@@ -6,7 +6,72 @@
 **doc**
 
 
-[34540ce1f606499](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/34540ce1f606499) Tomas Bjerre *2016-10-03 17:20:25*
+[dded999e364e125](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/dded999e364e125) Tomas Bjerre *2016-11-01 19:12:35*
+
+
+## 1.17
+### No issue
+
+**Bugfix, the big comment now includes only changed parts**
+
+
+[e85b21b7e695e68](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/e85b21b7e695e68) Tomas Bjerre *2016-11-01 19:10:31*
+
+**doc**
+
+
+[06925f0374cb678](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/06925f0374cb678) Tomas Bjerre *2016-10-27 17:28:27*
+
+
+## 1.16
+### No issue
+
+**Markdown in comments and not commenting unchanged files**
+
+
+[5b4bd0e6cde92bf](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/5b4bd0e6cde92bf) Tomas Bjerre *2016-10-27 17:11:15*
+
+**doc**
+
+
+[59b49136a8330f0](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/59b49136a8330f0) Tomas Bjerre *2016-10-26 16:03:38*
+
+
+## 1.15
+### No issue
+
+**Handling CSS Lint reports without line or evidence**
+
+
+[3caafe43b594a22](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/3caafe43b594a22) Tomas Bjerre *2016-10-26 16:01:54*
+
+**doc**
+
+
+[7f3ace71ae37c0f](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/7f3ace71ae37c0f) Tomas Bjerre *2016-10-25 18:26:36*
+
+
+## 1.14
+### No issue
+
+**Changing rule format in PyLint to CODE(codeName)**
+
+
+[31a97929faec2e2](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/31a97929faec2e2) Tomas Bjerre *2016-10-25 18:25:02*
+
+
+## 1.13
+### No issue
+
+**PyLint parser**
+
+
+[8e3017c6c97bbbc](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/8e3017c6c97bbbc) Tomas Bjerre *2016-10-24 17:34:15*
+
+**doc**
+
+
+[715a73bb6adf5d8](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/715a73bb6adf5d8) Tomas Bjerre *2016-10-03 17:20:50*
 
 
 ## 1.12
@@ -176,14 +241,5 @@
 
 
 [5889a2813d6639c](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/5889a2813d6639c) Tomas Bjerre *2016-03-04 18:57:30*
-
-
-## 1.0
-### No issue
-
-**Initial**
-
-
-[809e51cedb050a6](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/809e51cedb050a6) Tomas Bjerre *2016-03-04 18:36:30*
 
 
