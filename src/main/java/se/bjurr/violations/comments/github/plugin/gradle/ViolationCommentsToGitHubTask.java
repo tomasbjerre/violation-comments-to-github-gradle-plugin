@@ -1,9 +1,9 @@
 package se.bjurr.violations.comments.github.plugin.gradle;
 
-import static com.google.common.collect.Lists.newArrayList;
 import static se.bjurr.violations.comments.github.lib.ViolationCommentsToGitHubApi.violationCommentsToGitHubApi;
 import static se.bjurr.violations.lib.ViolationsReporterApi.violationsReporterApi;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.gradle.api.DefaultTask;
@@ -26,7 +26,7 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
  private String username;
  private String password;
  private String gitHubUrl;
- private List<List<String>> violations = newArrayList();
+ private List<List<String>> violations = new ArrayList<>();
  private boolean createCommentWithAllSingleFileComments = false;
  private boolean createSingleFileComments = true;
  private boolean commentOnlyChangedContent = true;
@@ -95,7 +95,7 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
   getLogger().info(
     "Will comment PR " + repositoryOwner + "/" + repositoryName + "/" + pullRequestId + " on " + gitHubUrl);
 
-  List<Violation> allParsedViolations = newArrayList();
+  List<Violation> allParsedViolations = new ArrayList<>();
   for (List<String> configuredViolation : violations) {
    List<Violation> parsedViolations = violationsReporterApi()//
      .findAll(Reporter.valueOf(configuredViolation.get(0)))//

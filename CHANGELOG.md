@@ -6,7 +6,30 @@
 **doc**
 
 
-[dded999e364e125](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/dded999e364e125) Tomas Bjerre *2016-11-01 19:12:35*
+[a6381ac22710717](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/a6381ac22710717) Tomas Bjerre *2017-02-06 18:05:38*
+
+
+## 1.19
+### No issue
+
+**Adding MyPy and PyDocStyle parsers**
+
+
+[906878821dd84c6](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/906878821dd84c6) Tomas Bjerre *2017-02-06 17:50:49*
+
+
+## 1.18
+### No issue
+
+**Codenarc, Cpd, Gendarme, Jcereport, Simian, ZptLint**
+
+
+[d1f1c87ceac44ba](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/d1f1c87ceac44ba) Tomas Bjerre *2016-11-06 07:06:13*
+
+**doc**
+
+
+[85c8336aa42ea64](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/85c8336aa42ea64) Tomas Bjerre *2016-11-01 19:13:02*
 
 
 ## 1.17
