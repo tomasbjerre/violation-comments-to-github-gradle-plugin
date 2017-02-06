@@ -21,8 +21,10 @@ It supports:
  * [_JSHint_](http://jshint.com/)
  * _Lint_ A common XML format, used by different linters.
  * [_JCReport_](https://github.com/jCoderZ/fawkez/wiki/JcReport)
+ * [_MyPy_](https://pypi.python.org/pypi/mypy-lang)
  * [_PerlCritic_](https://github.com/Perl-Critic)
  * [_PiTest_](http://pitest.org/)
+ * [_PyDocStyle_](https://pypi.python.org/pypi/pydocstyle)
  * [_PyLint_](https://www.pylint.org/)
  * [_PMD_](https://pmd.github.io/)
  * [_ReSharper_](https://www.jetbrains.com/resharper/)
@@ -44,7 +46,7 @@ Here is and example:
       }
     }
     dependencies {
-      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.18"
+      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.19"
     }
   }
 
