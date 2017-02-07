@@ -1,0 +1,8 @@
+title: Violation-comments-to-GitHub-gradle-plugin
+description: A plugin for Gradle that will find report files from static code analysis and comment pull requests in GItHub with them.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
