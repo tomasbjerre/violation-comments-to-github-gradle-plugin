@@ -1,7 +1,12 @@
 #Changelog
 
-## Unreleased
+## 1.20
 ### No issue
+
+**Removing Guava dependency**
+
+
+[b4b51e1b534b80f](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/b4b51e1b534b80f) Tomas Bjerre *2017-02-06 18:35:23*
 
 **doc**
 
