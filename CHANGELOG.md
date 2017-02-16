@@ -1,5 +1,19 @@
 #Changelog
 
+## 1.21
+### No issue
+
+**Finding findbugsmessages and correcting codenarc**
+
+
+[791e35e32f6e15d](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/791e35e32f6e15d) Tomas Bjerre *2017-02-16 20:57:33*
+
+**Set theme jekyll-theme-slate**
+
+
+[40a4511b6ea8120](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/40a4511b6ea8120) Tomas Bjerre *2017-02-07 20:16:36*
+
+
 ## 1.20
 ### No issue
 
