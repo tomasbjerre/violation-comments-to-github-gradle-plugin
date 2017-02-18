@@ -1,5 +1,28 @@
 #Changelog
 
+## Unreleased
+### No issue
+
+**doc**
+
+
+[23f34bf4e0c03cb](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/23f34bf4e0c03cb) Tomas Bjerre *2017-02-18 22:02:06*
+
+
+## 1.22
+### No issue
+
+**CLang, RubyCop, GoLint, GoVet, PHPMD, PHPCS**
+
+
+[f0abebc8a55585e](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/f0abebc8a55585e) Tomas Bjerre *2017-02-18 21:54:36*
+
+**doc**
+
+
+[cf2262b611a085b](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/cf2262b611a085b) Tomas Bjerre *2017-02-16 21:04:04*
+
+
 ## 1.21
 ### No issue
 
