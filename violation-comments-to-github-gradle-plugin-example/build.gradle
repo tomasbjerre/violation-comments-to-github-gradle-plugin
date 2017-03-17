@@ -27,6 +27,7 @@ task violationCommentsToGitHub(type: se.bjurr.violations.comments.github.plugin.
  createCommentWithAllSingleFileComments = true
  createSingleFileComments = true
  commentOnlyChangedContent = true
+ minSeverity = se.bjurr.violations.lib.model.SEVERITY.INFO //ERROR, INFO, WARN
  violations = [
   ["FINDBUGS",   ".", ".*/findbugs/.*\\.xml\$"],
   ["PMD",        ".", ".*/pmd/.*\\.xml\$"],

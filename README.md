@@ -73,6 +73,7 @@ Here is and example:
    createCommentWithAllSingleFileComments = false
    createSingleFileComments = true
    commentOnlyChangedContent = true
+   minSeverity = se.bjurr.violations.lib.model.SEVERITY.INFO //ERROR, INFO, WARN
    violations = [
     ["FINDBUGS",   ".", ".*/findbugs/.*\\.xml\$"],
     ["PMD",        ".", ".*/pmd/.*\\.xml\$"],
