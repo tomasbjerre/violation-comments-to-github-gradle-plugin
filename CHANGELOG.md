@@ -1,7 +1,12 @@
 #Changelog
 
-## Unreleased
+## 1.23
 ### No issue
+
+**Allowing filter comments on severity**
+
+
+[5dc5c197ee1e030](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/5dc5c197ee1e030) Tomas Bjerre *2017-03-17 21:15:05*
 
 **doc**
 
