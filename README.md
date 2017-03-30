@@ -31,8 +31,8 @@ It supports:
   * [_GoVet_](https://golang.org/cmd/vet/) Same format as GoLint.
  * [_JSHint_](http://jshint.com/)
  * _Lint_ A common XML format, used by different linters.
- * [_Klocwork_](http://www.klocwork.com/products-services/klocwork/static-code-analysis)
  * [_JCReport_](https://github.com/jCoderZ/fawkez/wiki/JcReport)
+ * [_Klocwork_](http://www.klocwork.com/products-services/klocwork/static-code-analysis)
  * [_MyPy_](https://pypi.python.org/pypi/mypy-lang)
  * [_PerlCritic_](https://github.com/Perl-Critic)
  * [_PiTest_](http://pitest.org/)
@@ -59,7 +59,7 @@ Here is and example:
       }
     }
     dependencies {
-      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.23"
+      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.24"
     }
   }
 
