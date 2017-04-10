@@ -1,5 +1,33 @@
 #Changelog
 
+## 1.25
+### No issue
+
+**SbtScalac**
+
+
+[5f0348ac638cd9e](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/5f0348ac638cd9e) Tomas Bjerre *2017-04-10 18:27:06*
+
+**doc**
+
+
+[9d41e5236355dc8](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/9d41e5236355dc8) Tomas Bjerre *2017-03-30 17:51:03*
+
+
+## 1.24
+### No issue
+
+**Klocwork parser**
+
+
+[bb35325902933ea](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/bb35325902933ea) Tomas Bjerre *2017-03-30 17:45:12*
+
+**doc**
+
+
+[02ca143c3f98532](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/02ca143c3f98532) Tomas Bjerre *2017-03-17 21:36:24*
+
+
 ## 1.23
 ### No issue
 
