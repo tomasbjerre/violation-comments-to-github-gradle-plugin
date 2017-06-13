@@ -11,6 +11,7 @@ The merge must be performed in order for the commented lines in the PR to match 
 It supports:
  * [_AndroidLint_](http://developer.android.com/tools/help/lint.html)
  * [_Checkstyle_](http://checkstyle.sourceforge.net/)
+   * [_Detekt_](https://github.com/arturbosch/detekt) with `--output-format xml`.
    * [_ESLint_](https://github.com/sindresorhus/grunt-eslint) with `format: 'checkstyle'`.
    * [_PHPCS_](https://github.com/squizlabs/PHP_CodeSniffer) with `phpcs api.php --report=checkstyle`.
  * [_CLang_](https://clang-analyzer.llvm.org/)
