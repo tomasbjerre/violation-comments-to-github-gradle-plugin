@@ -10,7 +10,7 @@ import org.gradle.api.tasks.TaskAction;
 import org.gradle.api.tasks.TaskExecutionException;
 import se.bjurr.violations.lib.model.SEVERITY;
 import se.bjurr.violations.lib.model.Violation;
-import se.bjurr.violations.lib.reports.Reporter;
+import se.bjurr.violations.lib.reports.Parser;
 import se.bjurr.violations.lib.util.Filtering;
 
 public class ViolationCommentsToGitHubTask extends DefaultTask {
@@ -114,11 +114,13 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
 
     List<Violation> allParsedViolations = new ArrayList<>();
     for (List<String> configuredViolation : violations) {
+      String reporter = configuredViolation.size() >= 4 ? configuredViolation.get(3) : null;
       List<Violation> parsedViolations =
           violationsReporterApi() //
-              .findAll(Reporter.valueOf(configuredViolation.get(0))) //
+              .findAll(Parser.valueOf(configuredViolation.get(0))) //
               .inFolder(configuredViolation.get(1)) //
               .withPattern(configuredViolation.get(2)) //
+              .withReporter(reporter) //
               .violations();
       if (minSeverity != null) {
         allParsedViolations = Filtering.withAtLEastSeverity(allParsedViolations, minSeverity);

@@ -1,5 +1,33 @@
 #Changelog
 
+## Unreleased
+### No issue
+
+**Updating doc on Infer**
+
+
+[3c1c81816836042](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/3c1c81816836042) Tomas Bjerre *2017-06-23 12:52:01*
+
+**Doc**
+
+
+[38acf430923b0b3](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/38acf430923b0b3) Tomas Bjerre *2017-06-13 17:59:26*
+
+
+## 1.26
+### No issue
+
+**URL in Klocwork**
+
+
+[360d76d8594d863](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/360d76d8594d863) Tomas Bjerre *2017-04-11 18:26:27*
+
+**doc**
+
+
+[0c164148c3acdaa](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/0c164148c3acdaa) Tomas Bjerre *2017-04-10 20:15:11*
+
+
 ## 1.25
 ### No issue
 
