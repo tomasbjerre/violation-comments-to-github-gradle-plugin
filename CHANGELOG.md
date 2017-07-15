@@ -3,6 +3,20 @@
 ## Unreleased
 ### No issue
 
+**doc**
+
+
+[26c0f4e2b6c2a24](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/26c0f4e2b6c2a24) Tomas Bjerre *2017-07-15 10:14:47*
+
+
+## 1.27
+### No issue
+
+**Violations-lib 1.29 with reporter field**
+
+
+[1b1333d3619486f](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/1b1333d3619486f) Tomas Bjerre *2017-07-15 10:12:31*
+
 **Updating doc on Infer**
 
 

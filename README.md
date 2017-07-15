@@ -64,7 +64,7 @@ Here is and example:
       }
     }
     dependencies {
-      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.26"
+      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.27"
     }
   }
 
@@ -83,11 +83,11 @@ Here is and example:
    commentOnlyChangedContent = true
    minSeverity = se.bjurr.violations.lib.model.SEVERITY.INFO //ERROR, INFO, WARN
    violations = [
-    ["FINDBUGS",   ".", ".*/findbugs/.*\\.xml\$"],
-    ["PMD",        ".", ".*/pmd/.*\\.xml\$"],
-    ["CHECKSTYLE", ".", ".*/checkstyle/.*\\.xml\$"],
-    ["JSHINT",     ".", ".*/jshint/.*\\.xml\$"],
-    ["CSSLINT",    ".", ".*/csslint/.*\\.xml\$"]
+    ["FINDBUGS",   ".", ".*/findbugs/.*\\.xml\$",   "Findbugs"],
+    ["PMD",        ".", ".*/pmd/.*\\.xml\$",        "PMD"],
+    ["CHECKSTYLE", ".", ".*/checkstyle/.*\\.xml\$", "Checkstyle"],
+    ["JSHINT",     ".", ".*/jshint/.*\\.xml\$",     "JSHint"],
+    ["CSSLINT",    ".", ".*/csslint/.*\\.xml\$",     "CssLint"]
    ]
   }
 ```
