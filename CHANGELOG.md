@@ -6,7 +6,7 @@
 **doc**
 
 
-[26c0f4e2b6c2a24](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/26c0f4e2b6c2a24) Tomas Bjerre *2017-07-15 10:14:47*
+[fffb3176e592ef0](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/fffb3176e592ef0) Tomas Bjerre *2017-07-15 10:15:21*
 
 
 ## 1.27

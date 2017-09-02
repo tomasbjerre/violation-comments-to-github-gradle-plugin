@@ -32,6 +32,11 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
   private boolean createSingleFileComments = true;
   private boolean commentOnlyChangedContent = true;
   private SEVERITY minSeverity;
+  private boolean keepOldComments;
+
+  public void setKeepOldComments(boolean keepOldComments) {
+    this.keepOldComments = keepOldComments;
+  }
 
   public void setCreateCommentWithAllSingleFileComments(
       boolean createCommentWithAllSingleFileComments) {
@@ -89,7 +94,7 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
       getLogger().info("No pull request id defined, will not send violation comments to GitHub.");
       return;
     }
-    Integer pullRequestIdInt = Integer.valueOf(pullRequestId);
+    final Integer pullRequestIdInt = Integer.valueOf(pullRequestId);
     if (oAuth2Token != null) {
       getLogger().info("Using OAuth2Token");
     } else if (username != null && password != null) {
@@ -113,9 +118,9 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
                 + gitHubUrl);
 
     List<Violation> allParsedViolations = new ArrayList<>();
-    for (List<String> configuredViolation : violations) {
-      String reporter = configuredViolation.size() >= 4 ? configuredViolation.get(3) : null;
-      List<Violation> parsedViolations =
+    for (final List<String> configuredViolation : violations) {
+      final String reporter = configuredViolation.size() >= 4 ? configuredViolation.get(3) : null;
+      final List<Violation> parsedViolations =
           violationsReporterApi() //
               .findAll(Parser.valueOf(configuredViolation.get(0))) //
               .inFolder(configuredViolation.get(1)) //
@@ -141,8 +146,9 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
           .withCreateCommentWithAllSingleFileComments(createCommentWithAllSingleFileComments) //
           .withCreateSingleFileComments(createSingleFileComments) //
           .withCommentOnlyChangedContent(commentOnlyChangedContent) //
+          .withKeepOldComments(keepOldComments) //
           .toPullRequest();
-    } catch (Exception e) {
+    } catch (final Exception e) {
       getLogger().error("", e);
     }
   }
