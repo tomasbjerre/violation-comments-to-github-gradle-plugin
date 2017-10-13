@@ -1,7 +1,38 @@
 #Changelog
 
-## Unreleased
+## 1.30
 ### No issue
+
+**Resharper WikiUrl**
+
+
+[389321daa17e901](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/389321daa17e901) Tomas Bjerre *2017-10-13 11:28:01*
+
+
+## 1.29
+### No issue
+
+**Added handling for empty IssueType Description attributes for Resharper**
+
+
+[0727e1aff6867ab](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/0727e1aff6867ab) Tomas Bjerre *2017-10-09 16:50:56*
+
+**Doc**
+
+
+[2b32b49755400aa](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/2b32b49755400aa) Tomas Bjerre *2017-09-02 20:14:02*
+
+
+## 1.28
+### No issue
+
+**Keeping comments and adjusting checkstyle**
+
+ * Checkstyle now allows empty source attribute. 
+ * Comments can optionaly be kept and not removed when new comments are added. 
+ * Will no longer re-create identical comments. 
+
+[955290d9eba1ede](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/955290d9eba1ede) Tomas Bjerre *2017-09-02 12:00:25*
 
 **doc**
 
