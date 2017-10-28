@@ -64,7 +64,7 @@ Here is and example:
       }
     }
     dependencies {
-      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.28"
+      classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.31"
     }
   }
 
