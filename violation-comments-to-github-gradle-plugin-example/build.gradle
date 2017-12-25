@@ -5,7 +5,7 @@ buildscript {
  }
 
  dependencies {
-  classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.36-SNAPSHOT"
+  classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.37-SNAPSHOT"
  }
 }
 
