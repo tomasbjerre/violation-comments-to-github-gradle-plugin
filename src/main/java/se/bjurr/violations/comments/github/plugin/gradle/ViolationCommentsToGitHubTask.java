@@ -1,13 +1,15 @@
 package se.bjurr.violations.comments.github.plugin.gradle;
 
 import static se.bjurr.violations.comments.github.lib.ViolationCommentsToGitHubApi.violationCommentsToGitHubApi;
-import static se.bjurr.violations.lib.ViolationsReporterApi.violationsReporterApi;
+import static se.bjurr.violations.lib.ViolationsApi.violationsApi;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import org.gradle.api.DefaultTask;
 import org.gradle.api.tasks.TaskAction;
 import org.gradle.api.tasks.TaskExecutionException;
+
 import se.bjurr.violations.lib.model.SEVERITY;
 import se.bjurr.violations.lib.model.Violation;
 import se.bjurr.violations.lib.reports.Parser;
@@ -121,7 +123,7 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
     for (final List<String> configuredViolation : violations) {
       final String reporter = configuredViolation.size() >= 4 ? configuredViolation.get(3) : null;
       final List<Violation> parsedViolations =
-          violationsReporterApi() //
+          violationsApi() //
               .findAll(Parser.valueOf(configuredViolation.get(0))) //
               .inFolder(configuredViolation.get(1)) //
               .withPattern(configuredViolation.get(2)) //
