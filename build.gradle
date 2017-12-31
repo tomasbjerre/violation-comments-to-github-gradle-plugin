@@ -20,7 +20,7 @@ apply from: project.buildscript.classLoader.getResource('gradle-plugin.gradle').
 
 
 dependencies {
- compile 'se.bjurr.violations:violation-comments-to-github-lib:1.42'
+ compile 'se.bjurr.violations:violation-comments-to-github-lib:1.43'
 }
 
 
