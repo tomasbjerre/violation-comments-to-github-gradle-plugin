@@ -1,4 +1,135 @@
-#Changelog
+
+ # Violation comments to github gradle plugin changelog
+
+Changelog of Violation comments to github gradle plugin.
+
+## 1.39
+### No issue
+
+**PCLint**
+
+
+[9a7a88a6c8e3bb5](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/9a7a88a6c8e3bb5) Tomas Bjerre *2018-02-13 19:28:34*
+
+
+## 1.38
+### No issue
+
+**Google error-prone**
+
+
+[d5001f3f84ae604](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/d5001f3f84ae604) Tomas Bjerre *2018-01-14 12:18:30*
+
+
+## 1.37
+### No issue
+
+**Relocating to correct Java identifier**
+
+
+[f007508ac8e9791](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/f007508ac8e9791) Tomas Bjerre *2017-12-31 12:04:44*
+
+**Doc**
+
+
+[22a1544c874edf6](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/22a1544c874edf6) Tomas Bjerre *2017-12-25 20:14:15*
+
+
+## 1.36
+### No issue
+
+**Fixing encoding issues**
+
+
+[064dd6691978ad5](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/064dd6691978ad5) Tomas Bjerre *2017-12-25 20:11:16*
+
+**Doc**
+
+
+[e7f8b4f68ea125a](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/e7f8b4f68ea125a) Tomas Bjerre *2017-12-22 20:04:43*
+
+
+## 1.35
+### No issue
+
+**Bumping version to fix faulty release**
+
+
+[0668238ea3922c1](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/0668238ea3922c1) Tomas Bjerre *2017-12-22 19:59:18*
+
+**Doc**
+
+
+[8974428ca05637e](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/8974428ca05637e) Tomas Bjerre *2017-12-22 15:49:51*
+
+
+## 1.34
+### No issue
+
+**DocFX parsing JSON with Gson, not ScriptEngine**
+
+
+[5c55a1b24553ece](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/5c55a1b24553ece) Tomas Bjerre *2017-12-22 12:44:40*
+
+**Doc**
+
+
+[581e5a4e3099d4a](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/581e5a4e3099d4a) Tomas Bjerre *2017-12-21 14:56:29*
+
+
+## 1.33
+### No issue
+
+**DocFX**
+
+
+[a1ddbe7ac4acefe](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/a1ddbe7ac4acefe) Tomas Bjerre *2017-12-21 14:42:21*
+
+**Doc**
+
+
+[546af62a308a519](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/546af62a308a519) Tomas Bjerre *2017-12-07 17:21:30*
+
+
+## 1.32
+### GitHub #15 
+
+**Accepting PMD files without ruleset-tag**
+
+
+[b942c8ed7951538](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/b942c8ed7951538) Tomas Bjerre *2017-12-07 16:34:43*
+
+
+### No issue
+
+**Refactoring build scripts**
+
+
+[5cb83d082286b9a](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/5cb83d082286b9a) Tomas Bjerre *2017-12-07 16:58:34*
+
+**Doc**
+
+
+[21b244f0b2fcf1b](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/21b244f0b2fcf1b) Tomas Bjerre *2017-10-28 10:53:53*
+
+
+## 1.31
+### No issue
+
+**Update plugin-publish-plugin**
+
+ * Hiya, I was doing a quick scan of the gradle plugin portal and noticed you were using an old version of the plugin-publish-plugin. 
+ * There was a bug in versions prior to 0.9.7, where artifacts would silently not be pushed into the repo, which means the latest version of your plugin will not work properly when people apply it to their build. 
+ * Upgrading the plugin will fix this, but this will require pushing a new version of your plugin :-/ 
+ * Thanks (and sorry about that) 
+
+[6506dab078359e4](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/6506dab078359e4) Tim Yates *2017-10-23 09:13:04*
+
+**Doc**
+
+
+[b7a5394a9f2239a](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/b7a5394a9f2239a) Tomas Bjerre *2017-10-13 11:47:57*
+
 
 ## 1.30
 ### No issue
@@ -424,3 +555,4 @@
 [5889a2813d6639c](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/5889a2813d6639c) Tomas Bjerre *2016-03-04 18:57:30*
 
 
+ 
