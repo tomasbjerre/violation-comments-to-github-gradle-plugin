@@ -3,6 +3,24 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## Unreleased
+### GitHub #33 
+
+**NullAway**
+
+
+[8f9ceb6ba48122d](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/8f9ceb6ba48122d) Tomas Bjerre *2018-04-14 05:10:11*
+
+
+## 1.40
+### No issue
+
+**PCLint**
+
+
+[f34e6fbabb5f045](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/f34e6fbabb5f045) Tomas Bjerre *2018-02-13 20:03:28*
+
+
 ## 1.39
 ### No issue
 

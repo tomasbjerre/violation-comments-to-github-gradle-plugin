@@ -33,58 +33,63 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
   private boolean commentOnlyChangedContent = true;
   private SEVERITY minSeverity;
   private boolean keepOldComments;
+  private String commentTemplate;
 
-  public void setKeepOldComments(boolean keepOldComments) {
+  public void setKeepOldComments(final boolean keepOldComments) {
     this.keepOldComments = keepOldComments;
   }
 
   public void setCreateCommentWithAllSingleFileComments(
-      boolean createCommentWithAllSingleFileComments) {
+      final boolean createCommentWithAllSingleFileComments) {
     this.createCommentWithAllSingleFileComments = createCommentWithAllSingleFileComments;
   }
 
-  public void setCreateSingleFileComments(boolean createSingleFileComments) {
+  public void setCreateSingleFileComments(final boolean createSingleFileComments) {
     this.createSingleFileComments = createSingleFileComments;
   }
 
-  public void setCommentOnlyChangedContent(boolean commentOnlyChangedContent) {
+  public void setCommentOnlyChangedContent(final boolean commentOnlyChangedContent) {
     this.commentOnlyChangedContent = commentOnlyChangedContent;
   }
 
-  public void setGitHubUrl(String gitHubUrl) {
+  public void setGitHubUrl(final String gitHubUrl) {
     this.gitHubUrl = gitHubUrl;
   }
 
-  public void setRepositoryName(String repositoryName) {
+  public void setRepositoryName(final String repositoryName) {
     this.repositoryName = repositoryName;
   }
 
-  public void setRepositoryOwner(String repositoryOwner) {
+  public void setRepositoryOwner(final String repositoryOwner) {
     this.repositoryOwner = repositoryOwner;
   }
 
-  public void setPullRequestId(String pullRequestId) {
+  public void setPullRequestId(final String pullRequestId) {
     this.pullRequestId = pullRequestId;
   }
 
-  public void setViolations(List<List<String>> violations) {
+  public void setViolations(final List<List<String>> violations) {
     this.violations = violations;
   }
 
-  public void setoAuth2Token(String oAuth2Token) {
+  public void setoAuth2Token(final String oAuth2Token) {
     this.oAuth2Token = oAuth2Token;
   }
 
-  public void setUsername(String username) {
+  public void setUsername(final String username) {
     this.username = username;
   }
 
-  public void setPassword(String password) {
+  public void setPassword(final String password) {
     this.password = password;
   }
 
-  public void setMinSeverity(SEVERITY minSeverity) {
+  public void setMinSeverity(final SEVERITY minSeverity) {
     this.minSeverity = minSeverity;
+  }
+
+  public void setCommentTemplate(final String commentTemplate) {
+    this.commentTemplate = commentTemplate;
   }
 
   @TaskAction
@@ -147,6 +152,7 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
           .withCreateSingleFileComments(createSingleFileComments) //
           .withCommentOnlyChangedContent(commentOnlyChangedContent) //
           .withKeepOldComments(keepOldComments) //
+          .withCommentTemplate(commentTemplate) //
           .toPullRequest();
     } catch (final Exception e) {
       getLogger().error("", e);

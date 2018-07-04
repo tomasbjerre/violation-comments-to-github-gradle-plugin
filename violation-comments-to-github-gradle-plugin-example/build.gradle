@@ -5,7 +5,7 @@ buildscript {
  }
 
  dependencies {
-  classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:1.41-SNAPSHOT"
+  classpath "se.bjurr.violations:violation-comments-to-github-gradle-plugin:latest.integration"
  }
 }
 
@@ -29,6 +29,17 @@ task violationCommentsToGitHub(type: se.bjurr.violations.comments.github.plugin.
  commentOnlyChangedContent = true
  minSeverity = se.bjurr.violations.lib.model.SEVERITY.INFO //ERROR, INFO, WARN
  keepOldComments = false
+ commentTemplate = """
+**Reporter**: {{violation.reporter}}{{#violation.rule}}
+
+**Rule**: {{violation.rule}}{{/violation.rule}}
+**Severity**: {{violation.severity}}
+**File**: {{violation.file}} L{{violation.startLine}}{{#violation.source}}
+
+**Source**: {{violation.source}}{{/violation.source}}
+
+{{violation.message}}
+ """
  violations = [
   ["FINDBUGS",   ".", ".*/findbugs/.*\\.xml\$",   "Findbugs"],
   ["PMD",        ".", ".*/pmd/.*\\.xml\$",        "PMD"],
