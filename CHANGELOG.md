@@ -3,6 +3,15 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.42
+### No issue
+
+**GCC, ARM GCC and Doxygen**
+
+
+[5f747eb9323f60e](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/5f747eb9323f60e) Tomas Bjerre *2018-07-04 18:36:39*
+
+
 ## 1.41
 ### GitHub #33 
 
