@@ -3,13 +3,21 @@
 
 Changelog of Violation comments to github gradle plugin.
 
-## Unreleased
+## 1.41
 ### GitHub #33 
 
 **NullAway**
 
 
 [8f9ceb6ba48122d](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/8f9ceb6ba48122d) Tomas Bjerre *2018-04-14 05:10:11*
+
+
+### No issue
+
+**Custom template**
+
+
+[5a793ed88ab958c](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/5a793ed88ab958c) Tomas Bjerre *2018-07-04 07:41:55*
 
 
 ## 1.40

@@ -86,6 +86,17 @@ Here is and example:
    createSingleFileComments = true
    commentOnlyChangedContent = true
    minSeverity = se.bjurr.violations.lib.model.SEVERITY.INFO //ERROR, INFO, WARN
+   commentTemplate = """
+**Reporter**: {{violation.reporter}}{{#violation.rule}}
+
+**Rule**: {{violation.rule}}{{/violation.rule}}
+**Severity**: {{violation.severity}}
+**File**: {{violation.file}} L{{violation.startLine}}{{#violation.source}}
+
+**Source**: {{violation.source}}{{/violation.source}}
+
+{{violation.message}}
+"""
    violations = [
     ["FINDBUGS",   ".", ".*/findbugs/.*\\.xml\$",   "Findbugs"],
     ["PMD",        ".", ".*/pmd/.*\\.xml\$",        "PMD"],
