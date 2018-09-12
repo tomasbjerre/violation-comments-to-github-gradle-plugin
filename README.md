@@ -13,9 +13,15 @@ It supports:
  * [_Checkstyle_](http://checkstyle.sourceforge.net/)
    * [_Detekt_](https://github.com/arturbosch/detekt) with `--output-format xml`.
    * [_ESLint_](https://github.com/sindresorhus/grunt-eslint) with `format: 'checkstyle'`.
+   * [_KTLint_](https://github.com/shyiko/ktlint)
+   * [_SwiftLint_](https://github.com/realm/SwiftLint) with `--reporter checkstyle`.
+   * [_TSLint_](https://palantir.github.io/tslint/usage/cli/) with `-t checkstyle`
    * [_PHPCS_](https://github.com/squizlabs/PHP_CodeSniffer) with `phpcs api.php --report=checkstyle`.
  * [_CLang_](https://clang-analyzer.llvm.org/)
    * [_RubyCop_](http://rubocop.readthedocs.io/en/latest/formatters/) with `rubycop -f clang file.rb`
+   * [_GCC_](https://gcc.gnu.org/)
+   * [_ARM-GCC_](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm)
+   * [_Doxygen_](https://www.stack.nl/~dimitri/doxygen/)
  * [_CodeNarc_](http://codenarc.sourceforge.net/)
  * [_CPD_](http://pmd.sourceforge.net/pmd-4.3.0/cpd.html)
  * [_CPPLint_](https://github.com/theandrewdavis/cpplint)
@@ -23,6 +29,7 @@ It supports:
  * [_CSSLint_](https://github.com/CSSLint/csslint)
  * [_DocFX_](http://dotnet.github.io/docfx/)
  * [_Findbugs_](http://findbugs.sourceforge.net/)
+   * [_Spotbugs_](https://spotbugs.github.io/)
  * [_Flake8_](http://flake8.readthedocs.org/en/latest/)
    * [_AnsibleLint_](https://github.com/willthames/ansible-lint) with `-p`
    * [_Mccabe_](https://pypi.python.org/pypi/mccabe)
@@ -43,7 +50,7 @@ It supports:
  * [_PerlCritic_](https://github.com/Perl-Critic)
  * [_PiTest_](http://pitest.org/)
  * [_PyDocStyle_](https://pypi.python.org/pypi/pydocstyle)
- * [_PyLint_](https://www.pylint.org/)
+ * [_PyLint_](https://www.pylint.org/) with `pylint --output-format=parseable`.
  * [_PMD_](https://pmd.github.io/)
    * [_Infer_](http://fbinfer.com/) Facebook Infer. With `--pmd-xml`.
    * [_PHPPMD_](https://phpmd.org/) with `phpmd api.php xml ruleset.xml`.
