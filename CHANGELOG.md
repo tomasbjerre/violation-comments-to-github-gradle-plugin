@@ -3,6 +3,29 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.44
+### No issue
+
+**YAMLLint**
+
+
+[6f51d7d7558f02c](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/6f51d7d7558f02c) Tomas Bjerre *2018-09-15 08:20:02*
+
+
+## 1.43
+### No issue
+
+**Correcting ownerName and CPD**
+
+
+[094b5e3fbe344f4](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/094b5e3fbe344f4) Tomas Bjerre *2018-09-12 21:03:42*
+
+**Updating readme with parsers**
+
+
+[8e8d31c605d05db](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/8e8d31c605d05db) Tomas Bjerre *2018-09-12 17:07:15*
+
+
 ## 1.42
 ### No issue
 
