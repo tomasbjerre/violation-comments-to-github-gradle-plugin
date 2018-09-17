@@ -3,6 +3,15 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.45
+### No issue
+
+**Fix optional rule in YAMLLint**
+
+
+[00e3af80a7c1d2e](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/00e3af80a7c1d2e) Tomas Bjerre *2018-09-17 13:58:24*
+
+
 ## 1.44
 ### No issue
 
