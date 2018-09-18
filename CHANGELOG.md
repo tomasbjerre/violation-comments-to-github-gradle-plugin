@@ -3,6 +3,15 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.46
+### No issue
+
+**More information in log**
+
+
+[fcb5f0272f3deff](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/fcb5f0272f3deff) Tomas Bjerre *2018-09-18 10:16:46*
+
+
 ## 1.45
 ### No issue
 
