@@ -3,6 +3,15 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.47
+### No issue
+
+**Kotlin Maven and Gradle parsers**
+
+
+[a232a964a1e3966](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/a232a964a1e3966) Tomas Bjerre *2018-09-20 14:33:49*
+
+
 ## 1.46
 ### No issue
 
