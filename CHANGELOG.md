@@ -3,6 +3,20 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.49
+### No issue
+
+**Bumping version**
+
+
+[8b763dc9a35f52d](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/8b763dc9a35f52d) Tomas Bjerre *2018-09-21 00:04:43*
+
+**Correcting Kotlin parsers**
+
+
+[552a90913eaa510](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/552a90913eaa510) Tomas Bjerre *2018-09-21 00:02:30*
+
+
 ## 1.47
 ### No issue
 
