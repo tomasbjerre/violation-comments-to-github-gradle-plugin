@@ -3,6 +3,20 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## Unreleased
+### No issue
+
+**Doc**
+
+
+[cdb07332758fd91](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/cdb07332758fd91) Tomas Bjerre *2018-09-22 18:23:05*
+
+**Documenting parsers as a table**
+
+
+[5a0e1f386f5a217](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/5a0e1f386f5a217) Tomas Bjerre *2018-09-22 08:43:50*
+
+
 ## 1.49
 ### No issue
 

@@ -17,6 +17,7 @@ apply from: project.buildscript.classLoader.getResource('java.gradle').toURI()
 apply from: project.buildscript.classLoader.getResource('changelog.gradle').toURI()
 apply from: project.buildscript.classLoader.getResource('release.gradle').toURI()
 apply from: project.buildscript.classLoader.getResource('gradle-plugin.gradle').toURI()
+apply from: project.buildscript.classLoader.getResource('violations.gradle').toURI()
 
 
 dependencies {
