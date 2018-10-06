@@ -3,8 +3,18 @@
 
 Changelog of Violation comments to github gradle plugin.
 
-## Unreleased
+## 1.50
 ### No issue
+
+**Including entire rule in Flake8**
+
+
+[0f109adf282c439](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/0f109adf282c439) Tomas Bjerre *2018-10-06 07:02:53*
+
+**Automating reporters in readme**
+
+
+[bd66d94a59c9878](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/bd66d94a59c9878) Tomas Bjerre *2018-09-23 12:04:44*
 
 **Doc**
 
@@ -91,7 +101,7 @@ Changelog of Violation comments to github gradle plugin.
 
 
 ## 1.41
-### GitHub #33 
+### GitHub #33   
 
 **NullAway**
 
@@ -205,7 +215,7 @@ Changelog of Violation comments to github gradle plugin.
 
 
 ## 1.32
-### GitHub #15 
+### GitHub #15   
 
 **Accepting PMD files without ruleset-tag**
 
