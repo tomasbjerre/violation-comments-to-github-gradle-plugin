@@ -3,6 +3,15 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.51
+### No issue
+
+**Correcting AnsibleLint parsing**
+
+
+[292f6340fa32f0d](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/292f6340fa32f0d) Tomas Bjerre *2019-01-03 17:50:56*
+
+
 ## 1.50
 ### No issue
 
