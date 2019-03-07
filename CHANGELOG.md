@@ -3,6 +3,15 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.52
+### No issue
+
+**golangci-lint**
+
+
+[7ee80c42b9cd63e](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/7ee80c42b9cd63e) Tomas Bjerre *2019-03-07 16:13:13*
+
+
 ## 1.51
 ### No issue
 
