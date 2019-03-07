@@ -21,7 +21,7 @@ apply from: project.buildscript.classLoader.getResource('violations.gradle').toU
 
 
 dependencies {
- compile 'se.bjurr.violations:violation-comments-to-github-lib:1.64'
+ compile 'se.bjurr.violations:violation-comments-to-github-lib:1.69'
 }
 
 

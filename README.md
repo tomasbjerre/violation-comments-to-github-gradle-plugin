@@ -23,9 +23,9 @@ A number of **parsers** have been implemented. Some **parsers** can parse output
 | [_Checkstyle_](http://checkstyle.sourceforge.net/)                                    | `CHECKSTYLE`         | 
 | [_CodeNarc_](http://codenarc.sourceforge.net/)                                        | `CODENARC`           | 
 | [_Detekt_](https://github.com/arturbosch/detekt)                                      | `CHECKSTYLE`         | With `--output-format xml`.
-| [_ERB_](https://www.puppetcookbook.com/posts/erb-template-validation.html)            | `CLANG`              | With `erb -P -x -T '-' "${it}" \| ruby -c 2>&1 >/dev/null \| grep '^-' \| sed -E 's/^-([a-zA-Z0-9:]+)/${filename}\1 ERROR:/p' > erbfiles.out`.
 | [_DocFX_](http://dotnet.github.io/docfx/)                                             | `DOCFX`              | 
 | [_Doxygen_](https://www.stack.nl/~dimitri/doxygen/)                                   | `CLANG`              | 
+| [_ERB_](https://www.puppetcookbook.com/posts/erb-template-validation.html)            | `CLANG`              | With `erb -P -x -T '-' "${it}" \| ruby -c 2>&1 >/dev/null \| grep '^-' \| sed -E 's/^-([a-zA-Z0-9:]+)/${filename}\1 ERROR:/p' > erbfiles.out`.
 | [_ESLint_](https://github.com/sindresorhus/grunt-eslint)                              | `CHECKSTYLE`         | With `format: 'checkstyle'`.
 | [_Findbugs_](http://findbugs.sourceforge.net/)                                        | `FINDBUGS`           | 
 | [_Flake8_](http://flake8.readthedocs.org/en/latest/)                                  | `FLAKE8`             | 
@@ -35,6 +35,7 @@ A number of **parsers** have been implemented. Some **parsers** can parse output
 | [_GoLint_](https://github.com/golang/lint)                                            | `GOLINT`             | 
 | [_GoVet_](https://golang.org/cmd/vet/)                                                | `GOLINT`             | Same format as GoLint.
 | [_GoogleErrorProne_](https://github.com/google/error-prone)                           | `GOOGLEERRORPRONE`   | 
+| [_IAR_](https://www.iar.com/iar-embedded-workbench/)                                  | `IAR`                | With `--no_wrap_diagnostics`
 | [_Infer_](http://fbinfer.com/)                                                        | `PMD`                | Facebook Infer. With `--pmd-xml`.
 | [_JCReport_](https://github.com/jCoderZ/fawkez/wiki/JcReport)                         | `JCREPORT`           | 
 | [_JSHint_](http://jshint.com/)                                                        | `JSHINT`             | 
@@ -43,6 +44,7 @@ A number of **parsers** have been implemented. Some **parsers** can parse output
 | [_KotlinGradle_](https://github.com/JetBrains/kotlin)                                 | `KOTLINGRADLE`       | Output from Kotlin Gradle Plugin.
 | [_KotlinMaven_](https://github.com/JetBrains/kotlin)                                  | `KOTLINMAVEN`        | Output from Kotlin Maven Plugin.
 | [_Lint_]()                                                                            | `LINT`               | A common XML format, used by different linters.
+| [_MSCpp_](https://visualstudio.microsoft.com/vs/features/cplusplus/)                  | `MSCPP`              | 
 | [_Mccabe_](https://pypi.python.org/pypi/mccabe)                                       | `FLAKE8`             | 
 | [_MyPy_](https://pypi.python.org/pypi/mypy-lang)                                      | `MYPY`               | 
 | [_NullAway_](https://github.com/uber/NullAway)                                        | `GOOGLEERRORPRONE`   | Same format as Google Error Prone.
@@ -60,6 +62,7 @@ A number of **parsers** have been implemented. Some **parsers** can parse output
 | [_ReSharper_](https://www.jetbrains.com/resharper/)                                   | `RESHARPER`          | 
 | [_RubyCop_](http://rubocop.readthedocs.io/en/latest/formatters/)                      | `CLANG`              | With `rubycop -f clang file.rb`
 | [_SbtScalac_](http://www.scala-sbt.org/)                                              | `SBTSCALAC`          | 
+| [_Scalastyle_](http://www.scalastyle.org/)                                            | `CHECKSTYLE`         | 
 | [_Simian_](http://www.harukizaemon.com/simian/)                                       | `SIMIAN`             | 
 | [_Spotbugs_](https://spotbugs.github.io/)                                             | `FINDBUGS`           | 
 | [_StyleCop_](https://stylecop.codeplex.com/)                                          | `STYLECOP`           | 
