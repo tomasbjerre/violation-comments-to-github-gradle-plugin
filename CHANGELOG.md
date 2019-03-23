@@ -3,6 +3,15 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.53
+### No issue
+
+**Sonar Report**
+
+
+[76bc2107098d03e](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/76bc2107098d03e) Tomas Bjerre *2019-03-23 15:13:47*
+
+
 ## 1.52
 ### No issue
 
