@@ -3,6 +3,15 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.54
+### No issue
+
+**Correcting Sonar severity**
+
+
+[a614bd7e7ef6fc4](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/a614bd7e7ef6fc4) Tomas Bjerre *2019-03-30 08:19:36*
+
+
 ## 1.53
 ### No issue
 
