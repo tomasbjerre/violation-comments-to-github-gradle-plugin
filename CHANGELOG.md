@@ -3,6 +3,15 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.55
+### No issue
+
+**maxNumberOfComments**
+
+
+[ec3d84cea483c09](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/ec3d84cea483c09) Tomas Bjerre *2019-03-31 16:53:44*
+
+
 ## 1.54
 ### No issue
 
