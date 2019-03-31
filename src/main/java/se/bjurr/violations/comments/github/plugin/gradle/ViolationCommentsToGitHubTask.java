@@ -34,6 +34,11 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
   private SEVERITY minSeverity;
   private boolean keepOldComments;
   private String commentTemplate;
+  private Integer maxNumberOfViolations;
+
+  public void setMaxNumberOfViolations(final Integer maxNumberOfViolations) {
+    this.maxNumberOfViolations = maxNumberOfViolations;
+  }
 
   public void setKeepOldComments(final boolean keepOldComments) {
     this.keepOldComments = keepOldComments;
@@ -153,6 +158,7 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
           .withCommentOnlyChangedContent(commentOnlyChangedContent) //
           .withKeepOldComments(keepOldComments) //
           .withCommentTemplate(commentTemplate) //
+          .withMaxNumberOfViolations(maxNumberOfViolations) //
           .toPullRequest();
     } catch (final Exception e) {
       getLogger().error("", e);

@@ -107,6 +107,7 @@ Here is and example:
    createSingleFileComments = true
    commentOnlyChangedContent = true
    minSeverity = se.bjurr.violations.lib.model.SEVERITY.INFO //ERROR, INFO, WARN
+   maxNumberOfViolations: 99999
    commentTemplate = """
 **Reporter**: {{violation.reporter}}{{#violation.rule}}
 
