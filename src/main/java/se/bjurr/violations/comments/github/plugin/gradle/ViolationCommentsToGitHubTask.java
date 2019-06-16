@@ -5,11 +5,9 @@ import static se.bjurr.violations.lib.ViolationsApi.violationsApi;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.gradle.api.DefaultTask;
 import org.gradle.api.tasks.TaskAction;
 import org.gradle.api.tasks.TaskExecutionException;
-
 import se.bjurr.violations.lib.model.SEVERITY;
 import se.bjurr.violations.lib.model.Violation;
 import se.bjurr.violations.lib.reports.Parser;
@@ -40,8 +38,8 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
   private Integer maxNumberOfViolations;
 
   public void setCommentOnlyChangedFiles(final boolean commentOnlyChangedFiles) {
-	this.commentOnlyChangedFiles = commentOnlyChangedFiles;
-}
+    this.commentOnlyChangedFiles = commentOnlyChangedFiles;
+  }
 
   public void setMaxNumberOfViolations(final Integer maxNumberOfViolations) {
     this.maxNumberOfViolations = maxNumberOfViolations;
@@ -163,7 +161,7 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
           .withCreateCommentWithAllSingleFileComments(createCommentWithAllSingleFileComments) //
           .withCreateSingleFileComments(createSingleFileComments) //
           .withCommentOnlyChangedContent(commentOnlyChangedContent) //
-          .withCommentOnlyChangedFiles(commentOnlyChangedFiles)//
+          .withCommentOnlyChangedFiles(commentOnlyChangedFiles) //
           .withKeepOldComments(keepOldComments) //
           .withCommentTemplate(commentTemplate) //
           .withMaxNumberOfViolations(maxNumberOfViolations) //
