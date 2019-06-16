@@ -3,6 +3,15 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.56
+### No issue
+
+**commentOnlyChangedFiles**
+
+
+[c9b6e41082c2dfb](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/c9b6e41082c2dfb) Tomas Bjerre *2019-06-16 16:45:21*
+
+
 ## 1.55
 ### No issue
 
