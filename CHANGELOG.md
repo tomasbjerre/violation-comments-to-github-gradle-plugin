@@ -3,6 +3,15 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.59
+### No issue
+
+**Removing newline before fingerprint**
+
+
+[ffd630e57a4e0fc](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/ffd630e57a4e0fc) Tomas Bjerre *2019-08-29 18:43:12*
+
+
 ## 1.57
 ### No issue
 
