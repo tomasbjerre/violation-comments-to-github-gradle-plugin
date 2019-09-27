@@ -17,8 +17,8 @@ buildscript {
  */
 apply plugin: "se.bjurr.violations.violation-comments-to-github-gradle-plugin"
 task violationCommentsToGitHub(type: se.bjurr.violations.comments.github.plugin.gradle.ViolationCommentsToGitHubTask) {
- repositoryOwner = "tomasbjerre";
- repositoryName = "violations-test"
+ repositoryOwner = "kmalmur";
+ repositoryName = "violation-comments-to-github-gradle-plugin"
  pullRequestId = System.properties['GITHUB_PULLREQUESTID']
  username = System.properties['GITHUB_USERNAME']
  password = System.properties['GITHUB_PASSWORD']
