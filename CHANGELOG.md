@@ -3,6 +3,28 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.60
+### GitHub #80   
+
+**Add support for sonar issue report formats >= v7.5 tomasbjerre/violations-lib**
+
+
+[2c81e17231f2e8a](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/2c81e17231f2e8a) Tomas Bjerre *2020-01-03 07:24:09*
+
+
+### No issue
+
+**doc**
+
+
+[da2e18fe0237398](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/da2e18fe0237398) Tomas Bjerre *2019-10-09 17:00:37*
+
+**Create FUNDING.yml**
+
+
+[da0735c7e1d9528](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/da0735c7e1d9528) Tomas Bjerre *2019-09-28 06:57:05*
+
+
 ## 1.59
 ### No issue
 
