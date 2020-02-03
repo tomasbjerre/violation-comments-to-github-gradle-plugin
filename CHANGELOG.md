@@ -3,6 +3,15 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.61
+### GitHub #82   
+
+**CPPCheckParser with auto closed <error/> tags tomasbjerre/violations-lib**
+
+
+[fcee3f1cda5e232](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/fcee3f1cda5e232) Tomas Bjerre *2020-02-03 16:29:30*
+
+
 ## 1.60
 ### GitHub #80   
 
