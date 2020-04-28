@@ -3,6 +3,15 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.65
+### GitHub [#9](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/issues/9) Q: Is there a way to keep old comments which have an ongoing discussion?  
+
+**Correcting line in single file comments tomasbjerre/violation-comments-to-github-lib**
+
+
+[1e6faf00063e2ec](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/1e6faf00063e2ec) Tomas Bjerre *2020-04-28 17:24:31*
+
+
 ## 1.61
 ### GitHub #82   
 
