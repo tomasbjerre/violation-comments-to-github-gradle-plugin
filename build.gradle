@@ -10,7 +10,7 @@ buildscript {
   maven { url "https://jitpack.io" }
  }
  dependencies {
-  classpath 'com.github.tomasbjerre:gradle-scripts:master-SNAPSHOT'
+  classpath 'com.github.tomasbjerre:gradle-scripts:ny'
  }
 }
 apply from: project.buildscript.classLoader.getResource('java.gradle').toURI()
@@ -21,7 +21,7 @@ apply from: project.buildscript.classLoader.getResource('violations.gradle').toU
 
 
 dependencies {
- compile 'se.bjurr.violations:violation-comments-to-github-lib:1.80'
+ compile 'se.bjurr.violations:violation-comments-to-github-lib:1.81'
  compile 'se.bjurr.violations:violations-lib:1.110'
 }
 
