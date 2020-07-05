@@ -5,9 +5,14 @@ import static se.bjurr.violations.lib.ViolationsApi.violationsApi;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+import java.util.logging.Level;
 import org.gradle.api.DefaultTask;
+import org.gradle.api.logging.LogLevel;
 import org.gradle.api.tasks.TaskAction;
 import org.gradle.api.tasks.TaskExecutionException;
+import se.bjurr.violations.lib.ViolationsLogger;
 import se.bjurr.violations.lib.model.SEVERITY;
 import se.bjurr.violations.lib.model.Violation;
 import se.bjurr.violations.lib.reports.Parser;
@@ -104,70 +109,104 @@ public class ViolationCommentsToGitHubTask extends DefaultTask {
 
   @TaskAction
   public void gitChangelogPluginTasks() throws TaskExecutionException {
-    getProject().getExtensions().findByType(ViolationCommentsToGitHubPluginExtension.class);
-    if (pullRequestId == null || pullRequestId.equalsIgnoreCase("false")) {
-      getLogger().info("No pull request id defined, will not send violation comments to GitHub.");
+    this.getProject().getExtensions().findByType(ViolationCommentsToGitHubPluginExtension.class);
+    if (this.pullRequestId == null || this.pullRequestId.equalsIgnoreCase("false")) {
+      this.getLogger()
+          .info("No pull request id defined, will not send violation comments to GitHub.");
       return;
     }
-    final Integer pullRequestIdInt = Integer.valueOf(pullRequestId);
-    if (oAuth2Token != null) {
-      getLogger().info("Using OAuth2Token");
-    } else if (username != null && password != null) {
-      getLogger().info("Using username/password: " + username.substring(0, 1) + ".../*********");
+    final Integer pullRequestIdInt = Integer.valueOf(this.pullRequestId);
+    if (this.oAuth2Token != null) {
+      this.getLogger().info("Using OAuth2Token");
+    } else if (this.username != null && this.password != null) {
+      this.getLogger()
+          .info("Using username/password: " + this.username.substring(0, 1) + ".../*********");
     } else {
-      getLogger()
+      this.getLogger()
           .error(
               "No OAuth2 token and no username/email specified. Will not comment any pull request.");
       return;
     }
 
-    getLogger()
+    this.getLogger()
         .info(
             "Will comment PR "
-                + repositoryOwner
+                + this.repositoryOwner
                 + "/"
-                + repositoryName
+                + this.repositoryName
                 + "/"
-                + pullRequestId
+                + this.pullRequestId
                 + " on "
-                + gitHubUrl);
+                + this.gitHubUrl);
 
-    List<Violation> allParsedViolations = new ArrayList<>();
-    for (final List<String> configuredViolation : violations) {
+    final ViolationsLogger violationsLogger =
+        new ViolationsLogger() {
+          private LogLevel toGradleLogLevel(final Level level) {
+            LogLevel gradleLevel = LogLevel.INFO;
+            if (level == Level.FINE) {
+              gradleLevel = LogLevel.DEBUG;
+            } else if (level == Level.SEVERE) {
+              gradleLevel = LogLevel.ERROR;
+            } else if (level == Level.WARNING) {
+              gradleLevel = LogLevel.WARN;
+            }
+            return gradleLevel;
+          }
+
+          @Override
+          public void log(final Level level, final String string) {
+            ViolationCommentsToGitHubTask.this
+                .getLogger()
+                .log(this.toGradleLogLevel(level), string);
+          }
+
+          @Override
+          public void log(final Level level, final String string, final Throwable t) {
+            ViolationCommentsToGitHubTask.this
+                .getLogger()
+                .log(this.toGradleLogLevel(level), string, t);
+          }
+        };
+
+    Set<Violation> allParsedViolations = new TreeSet<>();
+    for (final List<String> configuredViolation : this.violations) {
       final String reporter = configuredViolation.size() >= 4 ? configuredViolation.get(3) : null;
-      final List<Violation> parsedViolations =
+      final Set<Violation> parsedViolations =
           violationsApi() //
+              .withViolationsLogger(violationsLogger) //
               .findAll(Parser.valueOf(configuredViolation.get(0))) //
               .inFolder(configuredViolation.get(1)) //
               .withPattern(configuredViolation.get(2)) //
               .withReporter(reporter) //
               .violations();
-      if (minSeverity != null) {
-        allParsedViolations = Filtering.withAtLEastSeverity(allParsedViolations, minSeverity);
+      if (this.minSeverity != null) {
+        allParsedViolations = Filtering.withAtLEastSeverity(allParsedViolations, this.minSeverity);
       }
       allParsedViolations.addAll(parsedViolations);
     }
 
     try {
-      violationCommentsToGitHubApi() //
-          .withoAuth2Token(oAuth2Token) //
-          .withUsername(username) //
-          .withPassword(password) //
-          .withPullRequestId(pullRequestIdInt) //
-          .withRepositoryName(repositoryName) //
-          .withRepositoryOwner(repositoryOwner) //
-          .withGitHubUrl(gitHubUrl) //
-          .withViolations(allParsedViolations) //
-          .withCreateCommentWithAllSingleFileComments(createCommentWithAllSingleFileComments) //
-          .withCreateSingleFileComments(createSingleFileComments) //
-          .withCommentOnlyChangedContent(commentOnlyChangedContent) //
-          .withCommentOnlyChangedFiles(commentOnlyChangedFiles) //
-          .withKeepOldComments(keepOldComments) //
-          .withCommentTemplate(commentTemplate) //
-          .withMaxNumberOfViolations(maxNumberOfViolations) //
+      violationCommentsToGitHubApi()
+          .withViolationsLogger(violationsLogger)
+          .withoAuth2Token(this.oAuth2Token)
+          .withUsername(this.username)
+          .withPassword(this.password)
+          .withPullRequestId(pullRequestIdInt)
+          .withRepositoryName(this.repositoryName)
+          .withRepositoryOwner(this.repositoryOwner)
+          .withGitHubUrl(this.gitHubUrl)
+          .withViolations(allParsedViolations)
+          .withCreateCommentWithAllSingleFileComments(
+              this.createCommentWithAllSingleFileComments) //
+          .withCreateSingleFileComments(this.createSingleFileComments) //
+          .withCommentOnlyChangedContent(this.commentOnlyChangedContent) //
+          .withCommentOnlyChangedFiles(this.commentOnlyChangedFiles) //
+          .withKeepOldComments(this.keepOldComments) //
+          .withCommentTemplate(this.commentTemplate) //
+          .withMaxNumberOfViolations(this.maxNumberOfViolations) //
           .toPullRequest();
     } catch (final Exception e) {
-      getLogger().error("", e);
+      this.getLogger().error("", e);
     }
   }
 }
