@@ -3,6 +3,15 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.66
+### No issue
+
+**New: custom logging in violations-lib**
+
+
+[6adbafe4f2c321f](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/6adbafe4f2c321f) Tomas Bjerre *2020-07-05 13:27:35*
+
+
 ## 1.65
 ### GitHub [#9](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/issues/9) Q: Is there a way to keep old comments which have an ongoing discussion?  
 
