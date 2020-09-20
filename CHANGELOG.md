@@ -3,6 +3,15 @@
 
 Changelog of Violation comments to github gradle plugin.
 
+## 1.67
+### No issue
+
+**violations-lib 1.128**
+
+
+[62dda4b87491fca](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/62dda4b87491fca) Tomas Bjerre *2020-09-20 13:39:35*
+
+
 ## 1.66
 ### No issue
 
