@@ -3,6 +3,15 @@
 
 Changelog of violation-comments-to-github-gradle-plugin.
 
+## 1.68.2
+### No issue
+
+**new build script**
+
+
+[57b901f57b314f7](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/57b901f57b314f7) Tomas Bjerre *2021-04-04 15:33:44*
+
+
 ## 1.68.1
 ### No issue
 
