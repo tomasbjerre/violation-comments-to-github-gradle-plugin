@@ -1,7 +1,16 @@
 
- # Violation comments to github gradle plugin changelog
+# violation-comments-to-github-gradle-plugin changelog
 
-Changelog of Violation comments to github gradle plugin.
+Changelog of violation-comments-to-github-gradle-plugin.
+
+## 1.68.1
+### No issue
+
+**new build script**
+
+
+[a42910935accd6c](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/a42910935accd6c) Tomas Bjerre *2021-04-04 15:18:55*
+
 
 ## 1.67
 ### No issue
@@ -371,10 +380,10 @@ Changelog of Violation comments to github gradle plugin.
 
 **Update plugin-publish-plugin**
 
- * Hiya, I was doing a quick scan of the gradle plugin portal and noticed you were using an old version of the plugin-publish-plugin. 
- * There was a bug in versions prior to 0.9.7, where artifacts would silently not be pushed into the repo, which means the latest version of your plugin will not work properly when people apply it to their build. 
- * Upgrading the plugin will fix this, but this will require pushing a new version of your plugin :-/ 
- * Thanks (and sorry about that) 
+* Hiya, I was doing a quick scan of the gradle plugin portal and noticed you were using an old version of the plugin-publish-plugin. 
+* There was a bug in versions prior to 0.9.7, where artifacts would silently not be pushed into the repo, which means the latest version of your plugin will not work properly when people apply it to their build. 
+* Upgrading the plugin will fix this, but this will require pushing a new version of your plugin :-/ 
+* Thanks (and sorry about that) 
 
 [6506dab078359e4](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/6506dab078359e4) Tim Yates *2017-10-23 09:13:04*
 
@@ -412,9 +421,9 @@ Changelog of Violation comments to github gradle plugin.
 
 **Keeping comments and adjusting checkstyle**
 
- * Checkstyle now allows empty source attribute. 
- * Comments can optionaly be kept and not removed when new comments are added. 
- * Will no longer re-create identical comments. 
+* Checkstyle now allows empty source attribute. 
+* Comments can optionaly be kept and not removed when new comments are added. 
+* Will no longer re-create identical comments. 
 
 [955290d9eba1ede](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/955290d9eba1ede) Tomas Bjerre *2017-09-02 12:00:25*
 
@@ -677,7 +686,7 @@ Changelog of Violation comments to github gradle plugin.
 
 **Update violations-comments-to-github-lib version**
 
- * Updated to add ANDROIDLINT support 
+* Updated to add ANDROIDLINT support 
 
 [02b79902eec8987](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/02b79902eec8987) panpanini *2016-05-05 04:05:28*
 
@@ -808,4 +817,3 @@ Changelog of Violation comments to github gradle plugin.
 [5889a2813d6639c](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/5889a2813d6639c) Tomas Bjerre *2016-03-04 18:57:30*
 
 
- 
