@@ -3,7 +3,7 @@ language: java
 jdk:
   - openjdk8
 script:
-  - ./build.sh
+  - ./gradlew build -i -s
 after_script:
   - find -name TEST* -exec cat {} \;
 notifications:
