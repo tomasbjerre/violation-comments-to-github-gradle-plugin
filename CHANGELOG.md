@@ -2,25 +2,19 @@
 
 Changelog of violation-comments-to-github-gradle-plugin.
 
+## 1.70.0 (2023-03-26)
+
+### Features
+
+-  stepping violations-lib ([1a18e](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/1a18ec54c878635) Tomas Bjerre)  
+
 ## 1.69.0 (2022-03-27)
-
-
 
 ### Features
 
 -  stepping lib versions ([229f9](https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin/commit/229f9c930f5a213) Tomas Bjerre)  
 
-
-
-
-
 ## 1.68.3 (2021-04-04)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -32,12 +26,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.68.2 (2021-04-04)
 
-
-
-
-
-
-
 ### Other changes
 
 **new build script**
@@ -47,12 +35,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.68.1 (2021-04-04)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -64,12 +46,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.67 (2020-09-20)
 
-
-
-
-
-
-
 ### Other changes
 
 **violations-lib 1.128**
@@ -80,20 +56,7 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.66 (2020-07-05)
 
-
-
-
-
-
-
-
 ## 1.65 (2020-04-28)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -105,12 +68,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.61 (2020-02-03)
 
-
-
-
-
-
-
 ### Other changes
 
 **CPPCheckParser with auto closed <error/> tags tomasbjerre/violations-lib#82**
@@ -120,12 +77,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.60 (2020-01-03)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -147,12 +98,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.59 (2019-08-29)
 
-
-
-
-
-
-
 ### Other changes
 
 **Removing newline before fingerprint**
@@ -162,12 +107,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.57 (2019-08-03)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -179,12 +118,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.56 (2019-06-16)
 
-
-
-
-
-
-
 ### Other changes
 
 **commentOnlyChangedFiles**
@@ -194,12 +127,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.55 (2019-03-31)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -211,12 +138,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.54 (2019-03-30)
 
-
-
-
-
-
-
 ### Other changes
 
 **Correcting Sonar severity**
@@ -226,12 +147,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.53 (2019-03-23)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -243,12 +158,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.52 (2019-03-07)
 
-
-
-
-
-
-
 ### Other changes
 
 **golangci-lint**
@@ -259,12 +168,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.51 (2019-01-03)
 
-
-
-
-
-
-
 ### Other changes
 
 **Correcting AnsibleLint parsing**
@@ -274,12 +177,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.50 (2018-10-06)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -306,12 +203,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.49 (2018-09-21)
 
-
-
-
-
-
-
 ### Other changes
 
 **Bumping version**
@@ -327,12 +218,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.47 (2018-09-20)
 
-
-
-
-
-
-
 ### Other changes
 
 **Kotlin Maven and Gradle parsers**
@@ -342,12 +227,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.46 (2018-09-18)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -359,12 +238,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.45 (2018-09-17)
 
-
-
-
-
-
-
 ### Other changes
 
 **Fix optional rule in YAMLLint**
@@ -375,12 +248,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.44 (2018-09-15)
 
-
-
-
-
-
-
 ### Other changes
 
 **YAMLLint**
@@ -390,12 +257,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.43 (2018-09-13)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -412,12 +273,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.42 (2018-07-04)
 
-
-
-
-
-
-
 ### Other changes
 
 **GCC, ARM GCC and Doxygen**
@@ -427,12 +282,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.41 (2018-07-04)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -449,12 +298,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.40 (2018-02-13)
 
-
-
-
-
-
-
 ### Other changes
 
 **PCLint**
@@ -464,12 +307,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.39 (2018-02-13)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -481,12 +318,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.38 (2018-01-14)
 
-
-
-
-
-
-
 ### Other changes
 
 **Google error-prone**
@@ -496,12 +327,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.37 (2017-12-31)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -518,12 +343,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.36 (2017-12-25)
 
-
-
-
-
-
-
 ### Other changes
 
 **Fixing encoding issues**
@@ -538,12 +357,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.35 (2017-12-22)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -560,12 +373,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.34 (2017-12-22)
 
-
-
-
-
-
-
 ### Other changes
 
 **DocFX parsing JSON with Gson, not ScriptEngine**
@@ -581,12 +388,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.33 (2017-12-21)
 
-
-
-
-
-
-
 ### Other changes
 
 **DocFX**
@@ -601,12 +402,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.32 (2017-12-07)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -628,12 +423,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.31 (2017-10-28)
 
-
-
-
-
-
-
 ### Other changes
 
 **Update plugin-publish-plugin**
@@ -653,12 +442,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.30 (2017-10-13)
 
-
-
-
-
-
-
 ### Other changes
 
 **Resharper WikiUrl**
@@ -668,12 +451,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.29 (2017-10-09)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -689,12 +466,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.28 (2017-09-02)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -713,12 +484,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.27 (2017-07-15)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -740,12 +505,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.26 (2017-04-11)
 
-
-
-
-
-
-
 ### Other changes
 
 **URL in Klocwork**
@@ -760,12 +519,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.25 (2017-04-10)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -782,12 +535,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.24 (2017-03-30)
 
-
-
-
-
-
-
 ### Other changes
 
 **Klocwork parser**
@@ -802,12 +549,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.23 (2017-03-17)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -834,12 +575,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.22 (2017-02-18)
 
-
-
-
-
-
-
 ### Other changes
 
 **CLang, RubyCop, GoLint, GoVet, PHPMD, PHPCS**
@@ -854,12 +589,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.21 (2017-02-16)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -876,12 +605,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.20 (2017-02-06)
 
-
-
-
-
-
-
 ### Other changes
 
 **Removing Guava dependency**
@@ -897,12 +620,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.19 (2017-02-06)
 
-
-
-
-
-
-
 ### Other changes
 
 **Adding MyPy and PyDocStyle parsers**
@@ -912,12 +629,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.18 (2016-11-06)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -934,12 +645,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.17 (2016-11-01)
 
-
-
-
-
-
-
 ### Other changes
 
 **Bugfix, the big comment now includes only changed parts**
@@ -954,12 +659,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.16 (2016-10-27)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -976,12 +675,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.15 (2016-10-26)
 
-
-
-
-
-
-
 ### Other changes
 
 **Handling CSS Lint reports without line or evidence**
@@ -997,12 +690,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.14 (2016-10-25)
 
-
-
-
-
-
-
 ### Other changes
 
 **Changing rule format in PyLint to CODE(codeName)**
@@ -1012,12 +699,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.13 (2016-10-24)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1034,12 +715,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.12 (2016-10-03)
 
-
-
-
-
-
-
 ### Other changes
 
 **Supporting StyleCop and fixing FxCop**
@@ -1055,12 +730,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.11 (2016-10-01)
 
-
-
-
-
-
-
 ### Other changes
 
 **FXCop**
@@ -1075,12 +744,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.10 (2016-05-05)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1103,12 +766,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.9 (2016-04-27)
 
-
-
-
-
-
-
 ### Other changes
 
 **Andoid lint**
@@ -1123,12 +780,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.8 (2016-04-07)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1145,12 +796,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.7 (2016-03-11)
 
-
-
-
-
-
-
 ### Other changes
 
 **Updating tags**
@@ -1160,12 +805,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.6 (2016-03-09)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1182,12 +821,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.5 (2016-03-08)
 
-
-
-
-
-
-
 ### Other changes
 
 **Optionally comment only changed parts**
@@ -1202,12 +835,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.4 (2016-03-06)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1224,12 +851,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.3 (2016-03-06)
 
-
-
-
-
-
-
 ### Other changes
 
 **Adding some tags in pom**
@@ -1244,12 +865,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.2 (2016-03-06)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1266,12 +881,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 ## 1.1 (2016-03-04)
 
-
-
-
-
-
-
 ### Other changes
 
 **Line number in comments**
@@ -1286,12 +895,6 @@ Changelog of violation-comments-to-github-gradle-plugin.
 
 
 ## 1.0 (2016-03-04)
-
-
-
-
-
-
 
 ### Other changes
 
