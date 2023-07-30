@@ -2,6 +2,13 @@
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/se.bjurr.violations/violation-comments-to-github-gradle-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/se.bjurr.violations/violation-comments-to-github-gradle-plugin)
 
+
+--------------------
+Archived, see motivation here https://github.com/tomasbjerre/violation-comments-to-github-lib
+--------------------
+
+
+
 This is a Gradle plugin for [Violation Comments to GitHub Lib](https://github.com/tomasbjerre/violation-comments-to-github-lib).
 
 It can be used in Travis, or any other build server, to read results from static code analysis and comment pull requests in GitHub with them.
